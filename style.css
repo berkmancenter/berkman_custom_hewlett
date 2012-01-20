@@ -1,0 +1,67 @@
+/*
+Theme Name: Custom Theme for Hewlett Event
+Description: Custom theme for the Hewlett event.
+Author: Anita Patel
+Template: twentyeleven
+*/
+
+
+@import url("../twentyeleven/style.css");
+
+#site-title a { 
+  color: #000;
+}
+
+#access { 
+  background: #464646;
+}
+
+body, input, textarea {
+  font: 15px "Georgia", Georgia, Times, serif;
+}
+
+.mid-slideshow { 
+  height: 305px; 
+  width: 580px;
+ }
+
+.mid-slideshow img {
+  padding: 2px; 
+  border: 1px solid #ccc; 
+  background-color: #eee; 
+}
+
+#mid-section {
+  width: 100%;
+}
+
+#about-widget {
+  float: left;
+  margin-left: 7.6%;
+}
+
+body.home #main ul.slideshow{
+	height: 225px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body.home .slideshow h4 {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+body.home .slideshow img{
+	height: 190px;
+	width: 190px;
+}
+
+body.home .slideshow p {
+	display: none;
+}
+
+body.home .slideshow li{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
