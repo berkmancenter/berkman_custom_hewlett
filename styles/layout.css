@@ -74,6 +74,36 @@ div#main {
             width: 725px;
         }
 
+            /* Post/page contents */
+            div#main div#primary div#content article {
+                margin: 0;
+                padding: 0;
+            }
+
+                div#main div#primary div#content article header {
+                    margin: 0;
+                    padding: 0
+                    width: 100%;
+                }
+
+                div#main div#primary div#content article div.entry-content {
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                }
+
+                div#main div#primary div#content article footer.entry-meta {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                    div#main div#primary div#content article footer.entry-meta span.edit-link {}
+
+                        div#main div#primary div#content article footer.entry-meta span.edit-link a {
+                            left: -50px;
+                            top: 0;
+                        }
+
     /* Sidebar */
     div#main div#secondary {
         border: 1px dashed #ccc;
