@@ -1,0 +1,11 @@
+/* layout.css */
+
+#mid-section {
+  width: 100%;
+}
+
+#about-widget {
+  float: left;
+  margin-left: 7.6%;
+}
+

@@ -1,0 +1,13 @@
+/* global.css */
+
+#site-title a { 
+  color: #000;
+}
+
+#access { 
+  background: #464646;
+}
+
+body, input, textarea {
+  font: 15px "Georgia", Georgia, Times, serif;
+}
