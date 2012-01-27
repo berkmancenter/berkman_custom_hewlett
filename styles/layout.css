@@ -1,5 +1,108 @@
 /* layout.css */
 
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+div#page {
+    margin: 20px auto;
+    padding: 0;
+}
+
+/* Header */
+header#branding {
+    border: 1px dashed #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+    header#branding hgroup {
+        margin: 0;
+        padding: 0;
+    }
+
+        header#branding hgroup #site-title {
+            margin: 0;
+            padding: 0;
+        }
+
+        header#branding hgroup #site-description {
+            margin: 0;
+            padding: 0 0 45px 0;
+        }
+
+    /* Navigation */
+    header#branding nav#access {
+        margin: 0;
+        padding: 0;
+    }
+
+        header#branding nav#access div.menu {
+            margin: 0;
+            padding: 0;
+        }
+
+            header#branding nav#access div.menu ul {
+                margin: 0;
+                padding: 0;
+            }
+
+    /* Search box */
+    header#branding form#searchform {
+        bottom: 10px;
+        right: 0;
+    }
+
+
+/* Main */
+div#main {
+    margin: 0;
+    padding: 15px 0;
+
+}
+
+    div#main div#primary {
+        width: 1000px;
+    }
+
+        div#main div#primary div#content {
+            border: 1px dashed #ccc;
+            margin: 0;
+            padding: 0;
+            width: 725px;
+        }
+
+    /* Sidebar */
+    div#main div#secondary {
+        border: 1px dashed #ccc;
+        margin: 0;
+        padding: 0;
+        width: 250px;
+    }
+
+        div#main div#secondary aside {}
+        
+            div#main div#secondary aside h3 {}
+            
+            div#main div#secondary aside ul {
+                list-style: none;
+            }
+
+
+/* Footer */
+footer#colophon {
+    padding-top: 15px;
+}
+
+    footer#colophon div#site-generator {
+        background: none;
+        border: none;
+        border: 1px dashed #ccc;
+    }
+
+
 #mid-section {
   width: 100%;
 }
@@ -8,4 +111,3 @@
   float: left;
   margin-left: 7.6%;
 }
-
