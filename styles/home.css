@@ -1,14 +1,12 @@
 /* home.css */
 
 .mid-slideshow { 
-  height: 305px; 
-  width: 580px;
+  background-color: green;
+  height: 300px;
+  width: 100%;
  }
 
 .mid-slideshow img {
-  padding: 2px; 
-  border: 1px solid #ccc; 
-  background-color: #eee; 
 }
 
 body.home #main ul.slideshow{
