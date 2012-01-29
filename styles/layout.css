@@ -1,22 +1,48 @@
 /* layout.css */
 
 body {
-    background-color: #fff;
+    background-color: #444;
+    background-image: url('../images/mainbg.jpg');
+    background-position: top center;
     margin: 0;
+    background-repeat: repeat-y;
     padding: 0;
 }
 
 div#page {
-    margin: 20px auto;
-    padding: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin: 35px auto;
+    padding: 20px;
 }
 
 /* Header */
 header#branding {
-    border: 1px dashed #ccc;
+    border: none;
     margin: 0;
     padding: 0;
+    position: relative;
 }
+
+    header#branding a#hewlett-logo {
+        background-image: url('../images/hewlett.png');
+        display: block;
+        height: 50px;
+        left: 438px;
+        position: absolute;
+        top: 8px;
+        width: 128px;
+    }
+
+    header#branding a#berkman-logo {
+        background-image: url('../images/berkman.png');
+        display: block;
+        height: 50px;
+        left: 587px;
+        position: absolute;
+        top: 8px;
+        width: 243px;
+    }
 
     header#branding hgroup {
         margin: 0;
@@ -28,13 +54,19 @@ header#branding {
             padding: 0;
         }
 
+            header#branding hgroup #site-title a {
+                font-size: 26px;
+            }
+
         header#branding hgroup #site-description {
             margin: 0;
-            padding: 0 0 45px 0;
+            padding: 5px 0 20px 0;
         }
 
     /* Navigation */
     header#branding nav#access {
+        border-radius: 3px;
+        -moz-border-radius: 3px;
         margin: 0;
         padding: 0;
     }
@@ -51,9 +83,12 @@ header#branding {
 
     /* Search box */
     header#branding form#searchform {
-        bottom: 10px;
+        top: 28px;
         right: 0;
     }
+    
+    #s { width: 100px !important; }
+
 
 
 /* Main */

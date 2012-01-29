@@ -74,9 +74,13 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
+                        
+                        <a href="http://hewlett.org/" id="hewlett-logo"></a>
+                        <a href="http://cyber.law.harvard.edu/" id="berkman-logo"></a>
+
 			<hgroup>
-				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span></h1>
-				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">Hewlett Grantees Meeting 2012</a></span></h1>
+				<h2 id="site-description">April 10&#8211;13, 2012&nbsp;&nbsp;&middot;&nbsp;&nbsp;Cambridge, MA</h2>
 			</hgroup>
 			
 			<nav id="access" role="navigation">
