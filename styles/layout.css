@@ -81,6 +81,22 @@ header#branding {
                 padding: 0;
             }
 
+                header#branding nav#access div.menu ul li {
+                    
+                }
+
+                    header#branding nav#access div.menu ul li a {
+                        font-size: 15px;
+                        border-right: 1px solid #555;
+                        line-height: 2.8em;
+                    }
+
+                header#branding nav#access div.menu ul li.current_page_item {
+                    background-color: #555;
+                }
+
+                    header#branding nav#access div.menu ul li.current_page_item a { font-weight: normal; }
+
     /* Search box */
     header#branding form#searchform {
         top: 28px;
