@@ -17,13 +17,11 @@ get_header(); ?>
 		<div id="primary">
 			<div id="content" role="main">
 
-  <div class="mid-slideshow">
-                <img src="http://cloud.github.com/downloads/malsup/cycle/beach1.jpg" width="575" height="300" />
-                <img src="http://cloud.github.com/downloads/malsup/cycle/beach2.jpg" width="575" height="300" />
-                <img src="http://cloud.github.com/downloads/malsup/cycle/beach3.jpg" width="575" height="300" />
-                <img src="http://cloud.github.com/downloads/malsup/cycle/beach4.jpg" width="575" height="300" />
-                <img src="http://cloud.github.com/downloads/malsup/cycle/beach5.jpg" width="575" height="300" />
-  </div>
+<div class="mid-slideshow">
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/slideshow/slideshow-1.jpg" width="725" height="200" />
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/slideshow/slideshow-2.jpg" width="725" height="200" />
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/slideshow/slideshow-3.jpg" width="725" height="200" />
+</div>
 			<?php if ( have_posts() ) : ?>
 
 				<?php twentyeleven_content_nav( 'nav-above' ); ?>

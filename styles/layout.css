@@ -103,7 +103,6 @@ div#main {
     }
 
         div#main div#primary div#content {
-            border: 1px dashed #ccc;
             margin: 0;
             padding: 0;
             width: 725px;
