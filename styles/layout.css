@@ -91,11 +91,14 @@ header#branding {
                         line-height: 2.8em;
                     }
 
-                header#branding nav#access div.menu ul li.current_page_item {
-                    background-color: #555;
-                }
+                header#branding nav#access div.menu ul li.current_page_item { }
 
-                    header#branding nav#access div.menu ul li.current_page_item a { font-weight: normal; }
+                    header#branding nav#access div.menu ul li.current_page_item a {
+                        background-color: #555;
+                        font-weight: normal;
+                        border-radius: 3px;
+                        moz-border-radius: 3px;
+                    }
 
     /* Search box */
     header#branding form#searchform {
@@ -127,7 +130,7 @@ div#main {
             /* Post/page contents */
             div#main div#primary div#content article {
                 margin: 0;
-                padding: 0;
+                padding: 0 0 20px 0;
             }
 
                 div#main div#primary div#content article header {
@@ -137,7 +140,7 @@ div#main {
                 }
 
                 div#main div#primary div#content article div.entry-content {
-                    margin: 0;
+                    margin: 25px 0 20px 0;
                     padding: 0;
                     width: 100%;
                 }
