@@ -22,6 +22,26 @@ get_header(); ?>
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/slideshow/slideshow-2.jpg" width="725" height="200" />
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/slideshow/slideshow-3.jpg" width="725" height="200" />
 </div>
+
+<div id="home-boxes">
+    <div>
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit dictum eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed tempus odio. Phasellus lobortis suscipit mattis. Nulla facilisi. In nisi turpis, tristique ut accumsan at, sagittis a orci. <a href="#">More...</a></p>
+    </div>
+    <div class="home-box-right">
+        <h2>Agenda</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit dictum eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed tempus odio. Phasellus lobortis suscipit mattis. Nulla facilisi. In nisi turpis, tristique ut accumsan at, sagittis a orci. <a href="#">More...</a></p>
+    </div>
+    <div>
+        <h2>Participate</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit dictum eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed tempus odio. Phasellus lobortis suscipit mattis. Nulla facilisi. In nisi turpis, tristique ut accumsan at, sagittis a orci. <a href="#">More...</a></p>
+    </div>
+    <div class="home-box-right">
+        <h2>Past Meetings</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit dictum eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed tempus odio. Phasellus lobortis suscipit mattis. Nulla facilisi. In nisi turpis, tristique ut accumsan at, sagittis a orci. <a href="#">More...</a></p>
+    </div>
+</div><!--/#home-boxes-->
+
 			<?php if ( have_posts() ) : ?>
 
 				<?php twentyeleven_content_nav( 'nav-above' ); ?>
