@@ -2,10 +2,9 @@
 
 body {
     background-color: #444;
-    background-image: url('../images/mainbg.jpg');
-    background-position: top center;
+    background-image: url('../images/mainbg.png');
     margin: 0;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     padding: 0;
 }
 
