@@ -176,15 +176,15 @@ div#main {
 
 /* Footer */
 footer#colophon {
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
-    footer#colophon div#site-generator {
-        background: none;
-        border: none;
-        border: 1px dashed #ccc;
+    footer#colophon p {
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+        margin-bottom: 0;
+        text-align: center;
     }
-
 
 #mid-section {
   width: 100%;
