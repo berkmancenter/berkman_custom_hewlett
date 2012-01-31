@@ -20,22 +20,6 @@ if ( 'content' != $current_layout ) :
                                     <p>The Hewlett Grantees Meeting is a lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit dictum eleifend. <a href="">More...</a></p>
                                 </aside>
 
-                                <aside id="about" class="widget">
-                                    <h3>Participants</h3>
-                                    [thumbnails of participant photos?]
-                                </aside>
-
-                                <aside id="about" class="widget">
-                                    <h3>Tweets</h3>
-                                    [...]
-                                </aside>
-
-				<aside id="archives" class="widget">
-					<h3 class="widget-title"><?php _e( 'Announcements', 'twentyeleven' ); ?></h3>
-					<ul>
-						<?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
-					</ul>
-				</aside>
 
 			<?php endif; // end sidebar widget area ?>
 		</div><!-- #secondary .widget-area -->
