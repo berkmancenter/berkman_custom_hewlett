@@ -118,7 +118,7 @@ div#main {
 }
 
     div#main div#primary {
-        width: 1000px;
+        width: 725px;
     }
 
         div#main div#primary div#content {
@@ -127,11 +127,15 @@ div#main {
             width: 725px;
         }
 
+            div#main div#primary div#content nav#nav-single { padding: 0; }
+
             /* Post/page contents */
             div#main div#primary div#content article {
                 margin: 0;
                 padding: 0 0 20px 0;
             }
+
+            h1.entry-title { line-height: 14px !important; }
 
                 div#main div#primary div#content article header {
                     margin: 0;
