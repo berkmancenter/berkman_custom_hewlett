@@ -127,15 +127,13 @@ div#main {
             width: 725px;
         }
 
-            div#main div#primary div#content nav#nav-single { padding: 0; }
+            div#main div#primary div#content nav#nav-single { padding: 0; width: 350px; }
 
             /* Post/page contents */
             div#main div#primary div#content article {
                 margin: 0;
                 padding: 0 0 20px 0;
             }
-
-            h1.entry-title { line-height: 14px !important; }
 
                 div#main div#primary div#content article header {
                     margin: 0;
@@ -163,15 +161,26 @@ div#main {
 
     /* Sidebar */
     div#main div#secondary {
-        border: 1px dashed #ccc;
         margin: 0;
         padding: 0;
         width: 250px;
     }
 
-        div#main div#secondary aside {}
+        div#main div#secondary aside {
+            font-size: 15px;
+            margin-bottom: 50px;
+        }
         
-            div#main div#secondary aside h3 {}
+            div#main div#secondary aside h3 {
+                color: #333;
+                letter-spacing: 0;
+                line-height: 14px;
+                font-size: 18px;
+                font-weight: bold;
+                margin: 5px 0 20px 0;
+                padding: 0;
+                text-transform: none;
+            }
             
             div#main div#secondary aside ul {
                 list-style: none;
