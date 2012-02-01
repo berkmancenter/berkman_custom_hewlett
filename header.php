@@ -80,7 +80,12 @@
 
 			<hgroup>
 				<h1 id="site-title"><span><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">Hewlett Grantees Meeting 2012</a></span></h1>
-				<h2 id="site-description">April 10&#8211;13, 2012&nbsp;&nbsp;&middot;&nbsp;&nbsp;Cambridge, MA</h2>
+				<h2 id="site-description">
+                                    Grantees Meeting: April 10&#8211;12
+                                    &nbsp;&middot;&nbsp;
+                                    Hack Day: April 13
+
+                                </h2>
 			</hgroup>
 			
 			<nav id="access" role="navigation">

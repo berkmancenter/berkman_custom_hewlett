@@ -25,7 +25,9 @@
             <p>
                 <strong>Hewlett Grantees Meeting 2012</strong>
                 &nbsp;&middot;&nbsp;
-                April 10&#8211;13, 2012
+                Grantees Meeting: April 10&#8211;12
+                &nbsp;&middot;&nbsp;
+                Hack Day: April 13
                 &nbsp;&middot;&nbsp;
                 Cambridge, MA
                 <br /><br />
