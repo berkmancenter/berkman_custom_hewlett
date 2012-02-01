@@ -46,7 +46,7 @@ body.home div#home-boxes {
         height: 190px;
         margin-bottom: 20px;
         margin-right: 20px;
-        padding: 17px 20px 20px 20px;
+        padding: 17px 20px 30px 20px;
         width: 310px;
     }
 
@@ -58,6 +58,7 @@ body.home div#home-boxes {
         }
 
         body.home div#home-boxes div p {
+            line-height: 140%;
             margin: 20px 0 0 0;
         }
 
