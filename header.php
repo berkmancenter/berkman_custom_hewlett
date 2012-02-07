@@ -89,6 +89,7 @@
 			</hgroup>
 			
 			<nav id="access" role="navigation">
+                                <div id="social-media"><a href="<?php bloginfo('rss2_url'); ?>" id="rss-feed"></a></div>
 				<h3 class="assistive-text"><?php _e( 'Main menu', 'twentyeleven' ); ?></h3>
 				<?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff. */ ?>
 				<div class="skip-link"><a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to primary content', 'twentyeleven' ); ?>"><?php _e( 'Skip to primary content', 'twentyeleven' ); ?></a></div>

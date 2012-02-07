@@ -68,7 +68,24 @@ header#branding {
         -moz-border-radius: 3px;
         margin: 0;
         padding: 0;
+        position: relative;
     }
+
+        header#branding nav#access div#social-media {
+            height: 14px !important;
+            padding: 0;
+            position: absolute;
+            right: -60px;
+            top: 15px;
+        }
+
+            header#branding nav#access div#social-media a#rss-feed {
+                background: url('../images/rss.gif');
+                display: block;
+                height: 14px;
+                padding: 0;
+                width: 14px;
+            }
 
         header#branding nav#access div.menu {
             margin: 0;
