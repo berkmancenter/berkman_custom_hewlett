@@ -223,3 +223,44 @@ footer#colophon {
   float: left;
   margin-left: 7.6%;
 }
+
+/* Archives */
+div.masonry-container {
+    overflow: hidden;
+    width: 725px;
+}
+
+    div.masonry-container div.masonry-item {
+        border: 1px solid #ccc;
+        float: left;
+        font-size: 13px;
+        padding: 10px;
+        margin: 0 10px 15px 0;
+        width: 205px;
+    }
+
+    div.masonry-container div.masonry-item-big {
+        width: 446px;
+    }
+
+        div.masonry-container div.masonry-item a { font-weight: bold; }
+
+        div.masonry-container div.masonry-item img {
+            max-width: 100%;
+        }
+
+        div.masonry-container div.masonry-item h3 {
+            letter-spacing: none !important;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 100%;
+            margin: 15px 0 0 0;
+            padding: 0;
+            text-transform: none;
+        }
+
+        div.masonry-container div.masonry-item p { 
+            margin: 15px 0 0 0;
+            padding: 0;
+        }

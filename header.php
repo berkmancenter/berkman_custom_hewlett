@@ -69,6 +69,8 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 <!-- include Cycle plugin -->
 <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+<!-- include Masonry plugin -->
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/jquery.masonry.min.js">></script>
 </head>
 
 <body <?php body_class(); ?>>
