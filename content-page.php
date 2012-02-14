@@ -6,6 +6,10 @@
  * @subpackage Twenty_Eleven
  * @since Twenty Eleven 1.0
  */
+
+remove_filter ('the_content', 'wpautop');
+
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
