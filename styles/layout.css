@@ -163,6 +163,15 @@ div#main {
                     width: 100%;
                 }
 
+                div#main div#primary div#content article div.entry-content h3 {
+                    color: #555;
+                    font-size: 22px;
+                    font-style: italic;
+                    font-weight: bold;
+                    letter-spacing: normal;
+                    line-height: 100%;
+                }
+
                 div#main div#primary div#content article footer.entry-meta {
                     margin: 0;
                     padding: 0;
@@ -226,6 +235,7 @@ footer#colophon {
 
 /* Archives */
 div.masonry-container {
+    margin: 25px 0 50px 0;
     overflow: hidden;
     width: 725px;
 }
@@ -250,12 +260,14 @@ div.masonry-container {
         }
 
         div.masonry-container div.masonry-item h3 {
+            color: #333 !important;
             letter-spacing: none !important;
             font-family: 'Open Sans', sans-serif;
-            font-size: 18px;
+            font-size: 18px !important;
+            font-style: normal !important;
             font-weight: bold;
             line-height: 100%;
-            margin: 15px 0 0 0;
+            margin: 15px 0;
             padding: 0;
             text-transform: none;
         }
