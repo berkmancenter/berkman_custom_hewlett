@@ -86,7 +86,8 @@
                                     Grantees Meeting: April 10&#8211;12
                                     &nbsp;&middot;&nbsp;
                                     Hack Day: April 13
-
+                                    <br />
+                                    <em>Attendance by invitation only</em>
                                 </h2>
 			</hgroup>
 			
