@@ -31,9 +31,9 @@
                 &nbsp;&middot;&nbsp;
                 Cambridge, MA
                 <br /><br />
-                <a href="http://www.hewlett.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/hewlett-big.png" width="192" height="75" alt="Hewlett Foundation" style="border: none;"/></a>
-                &nbsp;&nbsp;&nbsp;
-                <a href="http://www.cyber.law.harvard.edy/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/berkman-big.png" width="364" height="75" alt="Berkman Center" style="border: none;"/></a>
+                <a href="http://www.hewlett.org/">William and Flora Hewlett Foundation</a>
+                &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                <a href="http://www.cyber.law.harvard.edy/">Berkman Center for Internet &amp; Society at Harvard University</a>
             </p>
 
 	</footer><!-- #colophon -->
