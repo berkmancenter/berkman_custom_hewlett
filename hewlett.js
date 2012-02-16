@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
 				jQuery('ul.xoxo').prepend('<aside class="widget-container"><ul class="slideshow">' + interiorHTML + '</ul></aside>').find('ul.slideshow').cycle({fx: 'scrollUp'});
 			},
 			complete: function(){
-				jQuery('ul.slideshow a').attr('href','http://localhost/~apatel/hewlett/speakers/');
+				jQuery('ul.slideshow a').attr('href','/speakers/');
 			}
 		});
 	}
@@ -24,7 +24,7 @@ jQuery(document).ready(function(){
 	jQuery('#site-title').bind({
 		click: function(){
 			//TODO: fix this when we start working under the "real" domain.
-			window.location.href = 'http://localhost/~apatel/hewlett/';
+			window.location.href = '/';
 		},
 		mouseover: function(){
 			jQuery(this).css({cursor: 'pointer'});
