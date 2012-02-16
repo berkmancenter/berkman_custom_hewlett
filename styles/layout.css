@@ -63,6 +63,9 @@ header#branding {
         }
 
     /* Navigation */
+    #access div {
+	margin: 0 1.6%;
+    }
     header#branding nav#access {
         border-radius: 3px;
         -moz-border-radius: 3px;
@@ -75,7 +78,7 @@ header#branding {
             height: 14px !important;
             padding: 0;
             position: absolute;
-            right: -60px;
+            right: 0px;
             top: 15px;
         }
 
