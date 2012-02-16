@@ -34,13 +34,13 @@ body.home .slideshow li{
 	padding: 0px;
 }
 
-body.home div#home-boxes {
+body.home div.home-boxes {
     margin-top: 20px;
     overflow: hidden;
     width: 725px;
 }
 
-    body.home div#home-boxes div {
+    body.home div.home-boxes div {
         border: 1px solid #ccc;
         float: left;
         height: 190px;
@@ -50,16 +50,16 @@ body.home div#home-boxes {
         width: 310px;
     }
 
-        body.home div#home-boxes div.home-box-right { margin-right: 0; width: 311px; }
+        body.home div.home-boxes div.home-box-right { margin-right: 0; width: 311px; }
 
-        body.home div#home-boxes div h2 {
+        body.home div.home-boxes div h2 {
             font-size: 22px;
             font-weight: bold;
         }
 
-        body.home div#home-boxes div p {
+        body.home div.home-boxes div p {
             line-height: 140%;
             margin: 20px 0 0 0;
         }
 
-            body.home div#home-boxes div p a { font-weight: bold; }
+            body.home div.home-boxes div p a { font-weight: bold; }
