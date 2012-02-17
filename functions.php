@@ -40,6 +40,17 @@ new TWTR.Widget({
 }
 add_shortcode( 'hewlett_twitter', 'hewlett_twitter_shortcode' );
 
+//Google Maps Shortcode
+function hewlett_googleMaps_shortcode($atts, $content = null) {
+   extract(shortcode_atts(array(
+      "width" => '640',
+      "height" => '480',
+      "src" => ''
+   ), $atts));
+   return '<iframe width="'.$width.'" height="'.$height.'" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="'.$src.'&amp;output=embed"></iframe>';
+}
+add_shortcode("hewlett_googlemap", "hewlett_googleMaps_shortcode");
+
 add_filter('widget_text', 'do_shortcode');
 
 register_sidebar(array(
