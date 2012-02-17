@@ -47,7 +47,7 @@ function hewlett_googleMaps_shortcode($atts, $content = null) {
       "height" => '480',
       "src" => ''
    ), $atts));
-   return '<iframe width="'.$width.'" height="'.$height.'" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="'.$src.'&amp;output=embed"></iframe>';
+   return '<iframe width="'.esc_attr($width).'" height="'.esc_attr($height).'" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="'.esc_attr($src).'&amp;output=embed"></iframe>';
 }
 add_shortcode("hewlett_googlemap", "hewlett_googleMaps_shortcode");
 
