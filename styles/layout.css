@@ -227,6 +227,16 @@ footer#colophon {
         text-align: center;
     }
 
+    footer#colophon p a#cc-logo {
+        background-image: url('../images/cc.png');
+        display: block;
+	height: 31px;
+	width: 88px;
+	margin-left: auto;
+	margin-right: auto;
+    }
+
+
 #mid-section {
   width: 100%;
 }

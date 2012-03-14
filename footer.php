@@ -34,6 +34,9 @@
                 <a href="http://www.hewlett.org/">William and Flora Hewlett Foundation</a>
                 &nbsp;&nbsp;&middot;&nbsp;&nbsp;
                 <a href="http://www.cyber.law.harvard.edy/">Berkman Center for Internet &amp; Society at Harvard University</a>
+		<br /><br />
+		<a href="http://creativecommons.org/licenses/by/3.0/" id="cc-logo"></a>
+		Except where otherwise noted, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>.
             </p>
 
 	</footer><!-- #colophon -->
