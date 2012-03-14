@@ -23,7 +23,7 @@
 			?>
 
             <p>
-                <strong>Hewlett Grantees Meeting 2012</strong>
+                <strong>Hewlett OER Grantees Meeting 2012</strong>
                 &nbsp;&middot;&nbsp;
                 Grantees Meeting: April 10&#8211;12
                 &nbsp;&middot;&nbsp;
