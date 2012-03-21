@@ -101,18 +101,6 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			</nav><!-- #access -->
 
-			<?php
-				// Has the text been hidden?
-				if ( 'blank' == get_header_textcolor() ) :
-			?>
-				<div class="only-search<?php if ( ! empty( $header_image ) ) : ?> with-image<?php endif; ?>">
-				<?php get_search_form(); ?>
-				</div>
-			<?php
-				else :
-			?>
-				<?php get_search_form(); ?>
-			<?php endif; ?>
 	</header><!-- #branding -->
 
 	<div id="main">
