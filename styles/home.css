@@ -9,7 +9,7 @@
 }
 
 body.home #main ul.slideshow{
-	height: 200px;
+	height: 225px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -20,8 +20,8 @@ body.home .slideshow h4 {
 }
 
 body.home .slideshow img{
-	height: 200px;
-	width: 725px;
+	height: 190px;
+	width: 190px;
 }
 
 body.home .slideshow p {
