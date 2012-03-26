@@ -289,3 +289,52 @@ div.masonry-container {
             margin: 15px 0 0 0;
             padding: 0;
         }
+
+/* People */
+    h3.participants-items {
+	padding-bottom: 30px;
+    }
+
+    ul.participants-items {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        ul.participants-items li {
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        ul.participants-items li:nth-child(odd) { background-color: #efefef; }
+
+            ul.participants-items li a,
+            ul.participants-items li a:visited,
+            ul.participants-items li a:active,
+            ul.participants-items li a:hover {
+                background: none;
+                border: none !important;
+                display: block;
+                float: left;
+                margin: 0 20px 0 0;
+                padding: 0;
+                width: 200px;
+            }
+
+                ul.participants-item li p a {
+                    margin: none !important;
+                    width: auto !important;
+                }
+
+            ul.participants-items li h4 {
+                display: inline;
+                font-size: 15px;
+                font-weight: bold;
+                margin: 0;
+            }
+
+            ul.participants-items li p {
+                font-size: 13px;
+                margin-top: 10px;
+                margin-bottom: 0;
+            }
