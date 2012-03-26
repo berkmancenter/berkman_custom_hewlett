@@ -5,7 +5,7 @@ jQuery(document).ready(function(){
 		jQuery.ajax({
 			type: 'GET',
 			cache: false,
-			url: 'speakers/',
+			url: 'people/',
 			success: function(html){
 				var interiorHTML = jQuery(html).find('ul.participants-items').html();
 				jQuery('ul.xoxo').prepend('<aside class="widget-container"><ul class="slideshow">' + interiorHTML + '</ul></aside>').find('ul.slideshow').cycle({fx: 'scrollUp'});
