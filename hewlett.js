@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
 			url: 'people/',
 			success: function(html){
 				var interiorHTML = jQuery(html).find('ul.participants-items').html();
-				jQuery('ul.xoxo').prepend('<aside class="widget-container"><ul class="slideshow">' + interiorHTML + '</ul></aside>').find('ul.slideshow').cycle({fx: 'scrollUp'});
+				jQuery('ul.xoxo').prepend('<aside class="widget-container"><h3 class="widget-title">People</h3><ul class="slideshow">' + interiorHTML + '</ul></aside>').find('ul.slideshow').cycle({fx: 'scrollUp'});
 			},
 			complete: function(){
 				jQuery('ul.slideshow a').attr('href','/speakers/');
