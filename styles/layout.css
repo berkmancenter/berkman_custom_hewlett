@@ -338,3 +338,54 @@ div.masonry-container {
                 margin-top: 10px;
                 margin-bottom: 0;
             }
+
+/* Agenda */
+    p.day_heading {
+	background-color: #464646;
+	color: #fff;
+	padding: 5px;
+    }
+    
+    span.date_heading {
+	color: #f18835;
+    }
+
+    p.session {
+	border-bottom: 1px dashed #373737;
+    }
+    
+    p.session-title {
+        font-weight: bold;
+    }
+
+    table.agenda-items {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    table.agenda-items .time {
+	font-weight: bold;
+	padding-right: 30px;
+    }
+
+    table.agenda-items .item {
+        padding: 10px;
+    }
+
+
+    table.agenda-items .item-blue {
+	background-color: #99CCFF;
+	padding: 10px;
+    }
+
+    table.agenda-items .item-orange {
+        background-color: #FFCC66;
+        padding: 10px;
+    }
+
+    table.agenda-items .item-gray {
+        background-color: #efefef;
+        padding: 10px;
+    }
+
