@@ -363,6 +363,9 @@ div.masonry-container {
         margin: 0;
         padding: 0;
     }
+    table.agenda-items td {
+	border-bottom: 10px solid #fff;
+    }
 
     table.agenda-items .time {
 	font-weight: bold;
