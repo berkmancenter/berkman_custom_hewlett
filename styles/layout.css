@@ -356,10 +356,11 @@ div.masonry-container {
     }
 
     p.session {
+	font-weight: bold;
 	border-bottom: 1px dashed #373737;
     }
     
-    p.session-title {
+    span.session-title {
         font-weight: bold;
     }
 
