@@ -345,9 +345,14 @@ div.masonry-container {
 	color: #fff;
 	padding: 5px;
     }
-    
+ 
+   p.day_heading a {
+        color: #fff;
+	text-decoration: none;
+    }
+   
     span.date_heading {
-	color: #f18835;
+	color: #81c3e3;
     }
 
     p.session {
@@ -378,17 +383,17 @@ div.masonry-container {
 
 
     table.agenda-items .item-blue {
-	background-color: #99CCFF;
+	background-color: #cae5f4;
 	padding: 10px;
     }
 
-    table.agenda-items .item-orange {
-        background-color: #FFCC66;
+    table.agenda-items .item-purple {
+        background-color: #d2d7ec;
         padding: 10px;
     }
 
     table.agenda-items .item-gray {
-        background-color: #efefef;
+        background-color: #f4f2f1;
         padding: 10px;
     }
 
