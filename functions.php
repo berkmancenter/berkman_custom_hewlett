@@ -9,10 +9,10 @@ function hewlett_twitter_shortcode( $atts ) {
 new TWTR.Widget({
   version: 2,
   type: 'search',
-  search: '#berkmancenter',
+  search: '#oer12hf',
   interval: 6000,
-  title: 'Berkman Center',
-  subject: '#berkmancenter ',
+  title: 'Hewlett OER Grantees Meeting 2012',
+  subject: '#oer12hf ',
   width: 188,
   height: 300,
   theme: {
