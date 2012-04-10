@@ -51,6 +51,18 @@ function hewlett_googleMaps_shortcode($atts, $content = null) {
 }
 add_shortcode("hewlett_googlemap", "hewlett_googleMaps_shortcode");
 
+function hewlett_iframe_shortcode( $atts ){
+        extract( shortcode_atts( array(
+                'width' => '715',
+                'height' => '1180',
+                'src' => ''
+                ), $atts ) 
+        );
+        $output = '<iframe src=" ' . esc_attr($src) . '" allowfullscreen="" width="'. esc_attr($width) . '" frameborder="0" height="' . esc_attr($height) . '" ></iframe>';
+        return $output;
+}
+add_shortcode( 'hewlett_iframe', 'hewlett_iframe_shortcode' );
+
 add_filter('widget_text', 'do_shortcode');
 
 register_sidebar(array(
