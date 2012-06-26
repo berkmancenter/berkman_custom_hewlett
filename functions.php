@@ -1,7 +1,8 @@
 <?php 
-wp_enqueue_script('jquery', 'jquery');
-wp_enqueue_script('jquerycycle', get_bloginfo('stylesheet_directory') . '/jquery.cycle.all.js');
-wp_enqueue_script('hewlett.js', get_bloginfo('stylesheet_directory') . '/hewlett.js');
+
+wp_enqueue_script('jquerymasonry', get_bloginfo('stylesheet_directory') . '/jquery.masonry.min.js',array('jquery'));
+wp_enqueue_script('jquerycycle', get_bloginfo('stylesheet_directory') . '/jquery.cycle.all.js',array('jquery'));
+wp_enqueue_script('hewlett.js', get_bloginfo('stylesheet_directory') . '/hewlett.js',array('jquery'));
 
 function hewlett_twitter_shortcode( $atts ) {
 		return "<script src='http://widgets.twimg.com/j/2/widget.js'></script> 
